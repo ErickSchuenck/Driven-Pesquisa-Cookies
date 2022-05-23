@@ -1,0 +1,47 @@
+
+-----O que são Cookies?
+Basicamente, o Cookie é um arquivo de texto simples armazenado pelo navegador. Sua função é guardar uma série de informações sobre o visitante e sua navegação, para que sejam utilizadas no caso de novo acesso.
+
+-----Cookies vs. Local Storage vs. Session Storage
+https://codepen.io/beaucarnes/pen/KmeRMx
+
+-----Onde são salvos os dados de cookies? 
+São salvos no navegador (como session storage, e localstorage). 
+Dessa forma, se o usuário trocar de browser, os dados são completamente zerados.
+Cookies estão disponíveis em todas abas, ao contrário de session storage por exemplo.
+
+-----Quanta informação os cookies conseguem reter?
+Na maioria dos navegadores, 4kb.
+
+-----Quando os cookies expiram?
+Session storage e local storage tem o tempo de expirar controlados pelo usuário: session storage expira qnd fecha a aba, local storage quando o user deleta o arquivo, cookies são completamente controlados pelo dev do site e a menos que tenham uma data limite, persistem no server.
+
+-----POC uso dos cookies
+
+-----Por que a função dos Cookies tem sido questionada?
+	Se, por um lado, eles oferecem facilidades para tornar a navegação mais ágil, de outro são considerados um pouco invasivos. Por este motivo, as autoridades da União Europeia resolveram proibir a utilização de Cookies sem a prévia autorização do usuário.
+	Desde então, os sites foram obrigados a avisar os usuários que os Cookies estão sendo utilizados para armazenar informações sobre sua navegação. Logo, possibilitou ao visitante decidir se quer ou não utilizar os Cookies daquela página que está acessando.
+
+
+-----Quais os tipos de Cookies existentes?
+Existem 5 tipos principais de Cookies. São eles:
+
+1 – Session Cookie
+Fica ativo enquanto o usuário está navegando no site. Assim que ele sai, as informações são deletadas.
+
+2 – Persistent ou Permanent Cookie
+São os cookies que permanecem gravados mesmo após a saída do site. O tempo da sua expiração vai ser aquele que o desenvolvedor achar necessário. Lembrando que eles podem ser apagados pelo visitante a qualquer momento de forma manual nas configurações do navegador.
+
+3 – Third-Party Cookies
+São acessados por domínios de terceiros, como no exemplo das redes de anúncio.
+
+4 – Supercookie
+É um Cookie de rastreamento que permite acompanhar todos os movimentos do usuário na web e, diferentemente dos outros tipos, não está armazenado no computador. Logo, não pode ser bloqueado ou excluído.
+
+Já existem algumas leis para evitar o seu funcionamento, principalmente porque os usuários se revoltaram com essa captura indevida de dados.
+
+5 – Zombie Cookie
+É um tipo de Cookie que volta à ativa mesmo após ser excluído, sendo conhecido também como Evercookie.
+
+Zombie Cookies - Video
+https://www.youtube.com/watch?v=lq6ZimHh-j4
